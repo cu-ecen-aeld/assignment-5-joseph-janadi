@@ -6,14 +6,14 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = a1a02daaa7d8dfc95b0f16a91c7cf948aab170df
+AESD_ASSIGNMENTS_VERSION = 9ad20a563c79de750faf2a5c9c883e935b6f10a1
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-joseph-janadi.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
-AESD_ASSIGNMENTS_OVERRIDE_SRCDIR=/home/jjanadi/Documents/assignments-3-and-later-joseph-janadi
+#AESD_ASSIGNMENTS_OVERRIDE_SRCDIR = /home/jjanadi/Documents/assignments-3-and-later-joseph-janadi
 
 define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/finder-app all
